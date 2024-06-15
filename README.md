@@ -1,6 +1,10 @@
 # Resetting-a-password-using-Active-Directory
-In this lab we will find a user and reset their password in Active Directory
 
+<h1>Summary</h1>
+
+In this lab we will reset a password with Active Directory. We will also go over a way to seach for a user if our domain contains many users.
+
+<h1>Step 1) Finding a User and Resetting their Password</h1>
 To begin this lab we need to start up our Windows 2019 server and log in.
 
 <img width="635" alt="Screenshot 2024-05-21 at 6 22 42 PM" src="https://github.com/Jtalbert15/Resetting-a-password-using-Active-Directory/assets/66844406/1fb1dbbe-7e1e-4917-8e4f-8624e231b679">
@@ -21,7 +25,8 @@ Now we need to find the account we created in the last lab. For me its my name b
 
 <img width="634" alt="Screenshot 2024-05-21 at 6 30 12 PM" src="https://github.com/Jtalbert15/Resetting-a-password-using-Active-Directory/assets/66844406/c023caaa-0252-4f65-bd54-0a4b308b77e6">
 
- Left click on the user and then right click on the user <img width="636" alt="Screenshot 2024-05-21 at 6 31 52 PM" src="https://github.com/Jtalbert15/Resetting-a-password-using-Active-Directory/assets/66844406/2c4c26a7-1733-4d01-92c1-da7857f93ba3">
+ Left click on the user and then right click on the user
+ <img width="636" alt="Screenshot 2024-05-21 at 6 31 52 PM" src="https://github.com/Jtalbert15/Resetting-a-password-using-Active-Directory/assets/66844406/2c4c26a7-1733-4d01-92c1-da7857f93ba3">
 
  From here we are going to click Reset Password...
  
@@ -29,6 +34,7 @@ Now we need to find the account we created in the last lab. For me its my name b
 
 And there we have it we can now reset a users password. Since we have only one person in our domain our user was easy to find. What if you had hundreds or thousands of users? Well luckily there is an easier way to find a user so let's give that a try.
 
+<h1>Step 2) Searching for a User and Resetting their Password</h1>
 <img width="635" alt="Screenshot 2024-05-21 at 6 37 59 PM" src="https://github.com/Jtalbert15/Resetting-a-password-using-Active-Directory/assets/66844406/820b3f89-a198-403a-bdef-23d2ef416602">
 
 All we have to do is right click on our domain. In my case that is ITLab.org
